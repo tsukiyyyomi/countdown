@@ -26,7 +26,11 @@
             _days(){
                 return this._hours * 24;
             }
-        }, methods:{
+        },
+        mounted(){
+            this.showRemaining();
+        },
+        methods:{
             showRemaining(){
                 const timer = setInterval(()=>{
                     const now = new Date();
