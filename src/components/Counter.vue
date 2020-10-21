@@ -44,7 +44,7 @@
                     this.displaySeconds = seconds < 10 ? "0" + seconds : seconds;
                     this.displayHours = hours < 10 ? "0" + hours : hours;
                     this.displayDays = days < 10 ? "0" + days : days;
-                })
+                },1000)
             }
         }
     }
