@@ -1,6 +1,19 @@
 <template>
     <div>
-        <h1>Hi Vue</h1>
+        <h3>Hi vue</h3>
+        <Counter/>
     </div>
 </template>
 
+<script>
+import Counter from '../components/Counter';
+    export default {
+        components:{
+            Counter
+        }
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
