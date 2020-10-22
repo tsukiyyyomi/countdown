@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>Hi vue</h3>
+        <h2>Countdown to 04/06/2021</h2>
         <Counter/>
     </div>
 </template>
@@ -15,5 +15,7 @@ import Counter from '../components/Counter';
 </script>
 
 <style lang="scss" scoped>
-
+    h2{
+        color: #63adc4;
+    }
 </style>

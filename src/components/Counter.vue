@@ -34,7 +34,7 @@
             showRemaining(){
                 const timer = setInterval(()=>{
                     const now = new Date();
-                    const end = new Date(2020, 10, 12, 4, 10, 10, 10);                
+                    const end = new Date(2021, 5, 4, 0, 0, 0, 0);                
                     const distance  = end.getTime() - now.getTime();
                     if( distance < 0){
                         clearInterval(timer);
@@ -55,5 +55,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+    h3{
+        color: rgba(255, 255, 255, 0.747);
+    }
 </style>
